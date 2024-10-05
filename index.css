@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1d2b36;
+  color: white;
+}
+
+.header .name {
+  font-size: 1.5rem;
+}
+
+.navlinks {
+  display: flex;
+  list-style-type: none;
+}
+
+.navlinks li {
+  margin-left: 1.5rem;
+}
+
+.navlinks a {
+  color: white;
+  text-decoration: none;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: #1d2b36;
+  color: white;
+  height: 700px;
+}
+h1{
+  font-size: 40px;
+}
+.hero{
+  margin-left: 18rem;
+
+}
+p{
+  font-size: 1.2rem;
+  margin: auto;
+}
+.image1{
+margin-left: 3rem;
+margin-right:18rem;
+}
+.image1 img{
+  height: 300px;
+  width: 500px;
+}
+button{
+  background-color: royalblue;
+  color: white;
+  font-size: 1.4rem;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  border-radius: 10%;
+}
+.second{
+  padding: 2rem;
+  background-color: beige;
+  height:500px;
+}
+.random{
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.rand{
+  display: flex;
+  justify-content:center;
+  margin-top: 1.2rem;
+  list-style-type: none;
+  gap: 1.8rem;
+}
+.second li{
+  text-align: center;
+}
+.second img{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.third{
+  padding: 2rem;
+  background-color: rgb(174, 174, 156);
+  color: black;
+  height: 400px ;
+}
+.third p{
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-stretch: expanded;
+  text-align: center;
+  margin-top: 150px;
+}
+.credit{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 170px;
+}
+.fourth{
+  padding:5.7rem;
+  background-color: beige;
+  height: 300px;
+}
+.module{
+display: incline-block;
+padding: 1.4rem;
+color: white;
+background-color: #1d2b36;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+box-shadow: #333;
+}
+.titl{
+font-size: 3rem;
+font-size: 300;
+}
+.mwone{
+  margin-bottom: 0.5;
+  margin-left: 10rem;
+}
+
+.module button{
+  border-color: white;
+  color: white;
+  padding:0.8rem 1.5rem ;
+  background-color: royalblue;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10rem;
+  height: 4rem;
+  width: 9rem;
+}
+
+.footer{
+  padding: 1rem;
+  background-color: #1d2b36;
+  text-align: center;
+  color: white;
+
+}
+.copyright{
+  font-size: 1rem;
+}
